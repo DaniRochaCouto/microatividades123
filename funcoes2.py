@@ -4,6 +4,7 @@ def loginUsuario(perfil):
         print("Bem-vindo, Administrador")
     else:
         print('Bem-vindo, Usuário')
+        
 perfil=input('Entre com seu usuário: ')
 
 loginUsuario(perfil)
